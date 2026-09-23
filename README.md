@@ -1,4 +1,4 @@
-# Algebra of Chains (pol. _Algebra łańcuchów_)
+# Algebra of Chains
 
 This repository contains the formalization of my original mathematical framework called **Algebra of Chains**. It shifts the focus from fractions as representations of rational numbers to chains as primary algebraic objects.
 
