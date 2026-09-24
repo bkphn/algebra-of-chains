@@ -74,7 +74,7 @@ ten oznaczamy jako $l\sim m$ i definiujemy następująco:
 $$l\sim m\Leftrightarrow\exists_{x,y\in\mathbb{N}}:L_{x}(l)\cong L_{y}(m)$$
 Na podstawie ostatecznej równości zdefinujmy funkcję $σ$, mówiącą o stopniu podobieństwa
 łańcuchów $l, m$:
-$$\sigma(l,m)=max\{\lambda(L_{x}(l)):L_{x}(l)\cong L_{y}(m)\wedge x\le\lambda(l)\wedge y\le\lambda(m)\}$$
+$$\sigma(l,m)=\max\{\lambda(L_{x}(l)):L_{x}(l)\cong L_{y}(m)\wedge x\le\lambda(l)\wedge y\le\lambda(m)\}$$
 Warto zauważyć, że w defnicji $\sim$ pojawia się ostra mniejszość, a w definicji $\sigma,\le$. Jest to celowy
 zabieg w celu uniknięcia wartości maksymalnej ze zbioru pustego, w tym przypadku stopień
 podobieństwa łańcuchów $l, m$ wynosi po prostu zero.
