@@ -86,7 +86,7 @@ $$\mathcal{P}=\{l\in\mathbb{L}:\chi(l)=0\wedge\tau(l)\widetilde{\leq}2\}$$
 Podzbiór $\set{l\in\mathbb{L} : \chi(l)=0 \land \tau(\lambda)\widetilde{\leq}0}$ nazywamy **przestrzenią trywialną** $\mathcal{O}$.
 
 Dowolny zbiór $\{l\in\mathbb{L}:\chi(l)=0\wedge\tau(l)\widetilde{\leq}k\}$ gdzie $k\in\mathbb{N}$ nazywamy **przestrzenią $k$-Zaremby** co
-oznaczamy jako $\mathcal{Z}_{k},$ w szczególności zachodzi:
+oznaczamy jako $\mathcal{Z}_{k}$, w szczególności zachodzi:
 	$\mathcal{P}=\mathcal{Z}_{2}$
 	$\mathcal{Z}=\mathcal{Z}_{5}$
 	$\mathcal{O}=\mathcal{Z}_{0}$
@@ -94,7 +94,7 @@ oznaczamy jako $\mathcal{Z}_{k},$ w szczególności zachodzi:
 Dowolny łańcuch $l=[l_{0};l_{1},...,l_{n}]$ nazywamy ułamkiem łańcuchowym bądź **łańcuchem**
 **właściwym**, jeżeli $l_{i}\in\mathbb{N}_{+}$ dla każdego $i\in\{1,2,...,n\}$. 
 
-Zbiór łańcuchów właściwych oznaczamy przez $\mathbb{L}^{*}$. Analogicznie przestrzenie $k$-Zaremby nazywamy przestrzeniami właściwymi $k$-Zaremby i oznaczamy je jako $\mathcal{Z}_{k}^{*},\mathcal{Z}^{*},\mathcal{P}^{*},\mathcal{O}^{*},$ przy czym: $O^{*}=\{[0;]\}$ przestrzenie takie formalnie definiujemy jako:
+Zbiór łańcuchów właściwych oznaczamy przez $\mathbb{L}^{*}$. Analogicznie przestrzenie $k$-Zaremby nazywamy przestrzeniami właściwymi $k$-Zaremby i oznaczamy je jako $\mathcal{Z}_{k}^{*},\mathcal{Z}^{*},\mathcal{P}^{*},\mathcal{O}^{*}$, przy czym: $O^{*}=\{[0;]\}$ przestrzenie takie formalnie definiujemy jako:
 $$\mathcal{Z}_{k}^*=\{l\in\mathbb{L^*}:\chi(l)=0\wedge\tau(l)\widetilde{\leq}k\}$$
 
 Niech funkcja $\Lambda:\mathbb{L}^{*}\rightarrow\mathbb{Q}$ będzie **wartościowaniem** łańcucha właściwego $l\in\mathbb{L}^{*}$. Funkcję tą
@@ -108,7 +108,7 @@ $$l=m\Leftrightarrow\Lambda(l)=\Lambda(m)$$
 Możemy zauważyć, że $l\equiv m\Rightarrow l=m\Rightarrow l\cong m\Rightarrow l\sim m$.
 
 > [!example] Przykładowo
-> Przykładowo $[0;1,1]\not\equiv[0;2]$, ale $[0;1,1]=[0;2],$ ponieważ:
+> Przykładowo $[0;1,1]\not\equiv[0;2]$, ale $[0;1,1]=[0;2]$, ponieważ:
 > $\Lambda([0;1,1])=\Lambda([0;2])$
 > $0+\frac{1}{1+\frac{1}{1}}=0+\frac{1}{2}$
 > $\frac{1}{2}=\frac{1}{2}$
@@ -158,7 +158,7 @@ mianowniki ułamka wymiernego, gdzie $\Lambda(m)=\frac{m}{1}$.
 Nic nie stoi na przeszkodzie, by mianowniki zdefiniować również na łańcuchach niewłaściwych.
 
 > [!example] Przykład
-> Niech $n=[1;5,0,3],$ liczba ta nie istnieje w zbiorze liczb $\mathbb{Q}$. Korzystając ze wzoru na mianownik $\Delta$ możemy obliczyć:
+> Niech $n=[1;5,0,3]$, liczba ta nie istnieje w zbiorze liczb $\mathbb{Q}$. Korzystając ze wzoru na mianownik $\Delta$ możemy obliczyć:
 > $$\Delta([1;5,0,3])=5\cdot\Delta([5;0,3])+\Delta([0;3])=5\cdot(0\cdot\Delta(0;3)+\Delta(3;))+\Delta([0;3])=$$
 > $$=5\cdot(0+1)+3=8$$
 
