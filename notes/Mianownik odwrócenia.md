@@ -27,13 +27,13 @@ Twierdzenie to możemy udowodnić wykorzystując silną indukcję. Ponieważ $\D
 ## Baza indukcji
 
 Dla $l = [0]$ ($\lambda(l) = 0$):
-$$ \Delta(l) = 1 = \Delta(\rho(l)) $$
+$$\Delta(l) = 1 = \Delta(\rho(l)) $$
 
 Dla $l = [0, l_{1}]$ ($\lambda(l) = 1$) mamy:
-$$ \rho([0, l_{1}]) = [0, l_{1}] $$
+$$\rho([0, l_{1}]) = [0, l_{1}] $$
 
 Zatem trywialnie:
-$$ \Delta(\rho([0, l_{1}])) = \Delta([0, l_{1}]) $$
+$$\Delta(\rho([0, l_{1}])) = \Delta([0, l_{1}]) $$
 
 ## Krok indukcyjny
 
