@@ -39,11 +39,11 @@ $$ \Delta(\rho([0, l_{1}])) = \Delta([0, l_{1}]) $$
 
 Dla $l = [0, l_{k}, l_{k-1}, \dots, l_{1}]$ ($\lambda(l) = k$), załóżmy ($Z_{i}$), że twierdzenie jest spełnione dla wszystkich łańcuchów o długości mniejszej niż $k$, w szczególności:
 
-$$ \Delta([0, l_{k-1}, \dots, l_{1}]) = \Delta([0, l_{1}, \dots, l_{k-1}]) $$
+$$\Delta([0, l_{k-1}, \dots, l_{1}]) = \Delta([0, l_{1}, \dots, l_{k-1}]) $$
 
 oraz
 
-$$ \Delta([0, l_{k-2}, \dots, l_{1}]) = \Delta([0, l_{1}, \dots, l_{k-2}]) $$
+$$\Delta([0, l_{k-2}, \dots, l_{1}]) = \Delta([0, l_{1}, \dots, l_{k-2}]) $$
 
 Wówczas:
 
@@ -59,4 +59,4 @@ $$
 
 Z twierdzenia o mianowniku złączenia:
 
-$$ \Delta([0, l_{k}, \dots, l_{1}]) = \Delta([0, l_{1}, \dots, l_{k-1}] \bowtie [0, l_{k}]) = \Delta([0, l_{1}, \dots, l_{k-1}, l_{k}]) $$
+$$\Delta([0, l_{k}, \dots, l_{1}]) = \Delta([0, l_{1}, \dots, l_{k-1}] \bowtie [0, l_{k}]) = \Delta([0, l_{1}, \dots, l_{k-1}, l_{k}]) $$
