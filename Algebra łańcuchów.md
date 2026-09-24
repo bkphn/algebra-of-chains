@@ -105,7 +105,7 @@ Pozwala nam ona wrócić z algebry łańcuchów do znanego zbioru liczb wymierny
 Mówimy, że dwa dowolne łańcuchy $l,m\in\mathbb{L}$ są równe, jeżeli spełniają warunek:
 $$l=m\Leftrightarrow\Lambda(l)=\Lambda(m)$$
 
-Możemy zauważyć, że $l\equiv m\Rightarrow l=m\Rightarrow l\cong m\Rightarrow l\sim m.$
+Możemy zauważyć, że $l\equiv m\Rightarrow l=m\Rightarrow l\cong m\Rightarrow l\sim m$.
 
 > [!example] Przykładowo
 > Przykładowo $[0;1,1]\not\equiv[0;2]$, ale $[0;1,1]=[0;2],$ ponieważ:
@@ -125,7 +125,7 @@ Mianownikiem łańcucha $l\in\mathbb{L}$ nazywamy liczbę $\Delta(l)$ gdzie $\De
 łańcucha I daną wzorem rekurencyjnym:
 $$\Delta(l)=\begin{cases}1,&\lambda(l)=0\\ l_{1},&\lambda(l)=1\\ l_{1}\cdot\Delta(L_{1}(l))+\Delta(L_{2}(l)),&\lambda(l)\ge2\end{cases}$$
 Możemy zauważyć, że jeżeli $m=[m_{0};]$ jest łańcuchem pustym to $\Delta(m)=1$ Odzwierciedla to
-mianowniki ułamka wymiernego, gdzie $\Lambda(m)=\frac{m}{1}.$
+mianowniki ułamka wymiernego, gdzie $\Lambda(m)=\frac{m}{1}$.
 
 > [!example] Dowód
 > Spróbujmy udowodnić indukcyjnie, że $\Delta$ jest zdefiniowana poprawnie. Na potrzeby dowodu niech $N(l)$ oznacza licznik, a $D(l)$ mianownik ułamka wymiernego $\Lambda(l)\in\mathbb{Q}$, zachodzi więc:
