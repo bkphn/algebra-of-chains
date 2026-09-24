@@ -67,7 +67,7 @@ odpowiadające sobie elementy są takie same:
 $$l\equiv m\Leftrightarrow\lambda(l)=\lambda(m) \land l_{i}=m_{i},\quad\forall_{i\le\lambda(l)}$$
 Mówimy, że $l, m$ są **ogonowo równe**, jeżeli zachodzi warunek:
 $$l\cong m\Leftrightarrow\tau(l)\equiv\tau(m)$$
-Niech $k\in\mathbb{Z},$ a $\diamond$ oznacza dowolną z relacji $<,\le,>,\ge$ mówimy, że:
+Niech $k\in\mathbb{Z}$, a $\diamond$ oznacza dowolną z relacji $<,\le,>,\ge$ mówimy, że:
 $$l\text{ }\widetilde{\diamond}\text{ }k\Leftrightarrow l_{i}\diamond k, \quad \forall_{i\le\lambda(l)}$$
 Mówimy, że $l, m$ są **ostatecznie równe** jeżeli ich ogony, od pewnego momentu się pokrywają, fakt
 ten oznaczamy jako $l\sim m$ i definiujemy następująco:
