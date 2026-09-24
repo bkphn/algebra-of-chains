@@ -1,5 +1,5 @@
 ## Przedmowa
-Plik [[Wstęp do algebry łańcuchów]] został pokazany Dawidowi Piotrowskiemu, w ówczesnej wersji pliku twierdzenie o mianowniku odwrócenia widniało jako nieudowodnione. W dniu 27.04.2026 otrzymałem od niego plik, zawierający dowód twierdzenia o mianowniku odwrócenia.
+Plik [[Wstęp do algebry łańcuchów]] został pokazany Dawidowi Piotrowskiemu, w ówczesnej wersji pliku twierdzenie o mianowniku odwrócenia widniało jako nieudowodnione. 27 kwietnia 2026 roku otrzymałem od niego plik, zawierający dowód twierdzenia o mianowniku odwrócenia.
 
 Autorem dalszej części tekstu jest Dawid Piotrowski.
 
