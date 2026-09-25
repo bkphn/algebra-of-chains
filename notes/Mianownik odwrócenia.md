@@ -6,7 +6,7 @@ Autorem dalszej części tekstu jest Dawid Piotrowski.
 ## Dowód na twierdzenie o mianowniku odwrócenia
 **Twierdzenie o mianowniku odwrócenia** postuluje, że:
 
-$$ \Delta(l) = \Delta(\rho(l)) $$
+$$\Delta(l) = \Delta(\rho(l)) $$
 
 gdzie $\Delta(l)$ oznacza mianownik łańcucha $l$, definiowany jako:
 
@@ -20,19 +20,22 @@ $$
 
 a $\rho(l)$ oznacza odwrócenie łańcucha $l$, definiowane wzorem:
 
-$$ \rho([l_{0}, l_{1}, \dots, l_{n}]) = [l_{0}, l_{n}, \dots, l_{1}] $$
+$$\rho([l_{0}, l_{1}, \dots, l_{n}]) = [l_{0}, l_{n}, \dots, l_{1}] $$
 
 Twierdzenie to możemy udowodnić wykorzystując silną indukcję. Ponieważ $\Delta(l) = \Delta(\tau(l))$, twierdzenie wystarczy udowodnić dla łańcuchów postaci $[0, l_{0}, l_{1}, \dots, l_{n}]$.
 
 ## Baza indukcji
 
 Dla $l = [0]$ ($\lambda(l) = 0$):
+
 $$\Delta(l) = 1 = \Delta(\rho(l)) $$
 
 Dla $l = [0, l_{1}]$ ($\lambda(l) = 1$) mamy:
+
 $$\rho([0, l_{1}]) = [0, l_{1}] $$
 
 Zatem trywialnie:
+
 $$\Delta(\rho([0, l_{1}])) = \Delta([0, l_{1}]) $$
 
 ## Krok indukcyjny
