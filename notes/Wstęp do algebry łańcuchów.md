@@ -130,9 +130,9 @@ Podzbiór $\set{l\in\mathbb{L} : \chi(l)=0 \land \tau(\lambda)\widetilde{\leq}0}
 
 Dowolny zbiór $\{l\in\mathbb{L}:\chi(l)=0\wedge\tau(l)\widetilde{\leq}k\}$ gdzie $k\in\mathbb{N}$ nazywamy **przestrzenią $k$-Zaremby** co
 oznaczamy jako $\mathcal{Z}_{k}$, w szczególności zachodzi:
-	$\mathcal{P}=\mathcal{Z}_{2}$
-	$\mathcal{Z}=\mathcal{Z}_{5}$
-	$\mathcal{O}=\mathcal{Z}_{0}$
+- $\mathcal{P}=\mathcal{Z}_{2}$
+- $\mathcal{Z}=\mathcal{Z}_{5}$
+- $\mathcal{O}=\mathcal{Z}_{0}$
 
 ## Łańcuchy właściwe
 Dowolny łańcuch $l=[l_{0};l_{1},...,l_{n}]$ nazywamy ułamkiem łańcuchowym bądź **łańcuchem**
