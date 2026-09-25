@@ -140,7 +140,7 @@ Dowolny łańcuch $l=[l_{0};l_{1},...,l_{n}]$ nazywamy ułamkiem łańcuchowym b
 
 Zbiór łańcuchów właściwych oznaczamy przez $\mathbb{L}^{*}$. Analogicznie przestrzenie $k$-Zaremby nazywamy przestrzeniami właściwymi $k$-Zaremby i oznaczamy je jako $\mathcal{Z}_{k}^{*},\mathcal{Z}^{*},\mathcal{P}^{*},\mathcal{O}^{*}$, przy czym: $O^{*}=\{[0;]\}$ przestrzenie takie formalnie definiujemy jako:
 
-$$\mathcal{Z}_{k}^{*}=\{l\in\mathbb{L^*}:\chi(l)=0\wedge\tau(l)\widetilde{\leq}k\}$$
+$$\mathcal{Z}_{k}^{*}=\{l\in\mathbb{L}^{*}:\chi(l)=0\wedge\tau(l)\widetilde{\leq}k\}$$
 
 Niech funkcja $\Lambda:\mathbb{L}^{*}\rightarrow\mathbb{Q}$ będzie **wartościowaniem** łańcucha właściwego $l\in\mathbb{L}^{*}$. Funkcję tą
 definiujemy rekurencyjnie:
