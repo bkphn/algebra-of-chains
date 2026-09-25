@@ -138,11 +138,11 @@ oznaczamy jako $\mathcal{Z}_{k}$, w szczególności zachodzi:
 Dowolny łańcuch $l=[l_{0};l_{1},...,l_{n}]$ nazywamy ułamkiem łańcuchowym bądź **łańcuchem**
 **właściwym**, jeżeli $l_{i}\in\mathbb{N}_{+}$ dla każdego $i\in\{1,2,...,n\}$. 
 
-Zbiór łańcuchów właściwych oznaczamy przez $\mathbb{L}^{*}$. Analogicznie przestrzenie $k$-Zaremby nazywamy przestrzeniami właściwymi $k$-Zaremby i oznaczamy je jako $\mathcal{Z}_{k}^{*},\mathcal{Z}^{*},\mathcal{P}^{*},\mathcal{O}^{*}$, przy czym: $O^{*}=\{[0;]\}$ przestrzenie takie formalnie definiujemy jako:
+Zbiór łańcuchów właściwych oznaczamy przez $\mathbb{L}^{\ast}$. Analogicznie przestrzenie $k$-Zaremby nazywamy przestrzeniami właściwymi $k$-Zaremby i oznaczamy je jako $\mathcal{Z}_{k}^{\ast},\mathcal{Z}^{\ast},\mathcal{P}^{\ast},\mathcal{O}^{\ast}$, przy czym: $O^{\ast}=\{[0;]\}$ przestrzenie takie formalnie definiujemy jako:
 
-$$\mathcal{Z}_{k}^{*}=\{l\in\mathbb{L}^{*}:\chi(l)=0\wedge\tau(l)\widetilde{\leq}k\}$$
+$$\mathcal{Z}_{k}^{\ast}=\{l\in\mathbb{L}^{\ast}:\chi(l)=0\wedge\tau(l)\widetilde{\leq}k\}$$
 
-Niech funkcja $\Lambda:\mathbb{L}^{*}\rightarrow\mathbb{Q}$ będzie **wartościowaniem** łańcucha właściwego $l\in\mathbb{L}^{*}$. Funkcję tą
+Niech funkcja $\Lambda:\mathbb{L}^{\ast}\rightarrow\mathbb{Q}$ będzie **wartościowaniem** łańcucha właściwego $l\in\mathbb{L}^{\ast}$. Funkcję tą
 definiujemy rekurencyjnie:
 
 $$\Lambda(l)=\begin{cases}l_{0},&l=[l_{0};]\\ l_{0}+\frac{1}{\Lambda(L_{1}(l))},&l\ne[l_{0};]\end{cases}$$
@@ -169,7 +169,7 @@ $$l-m=k\Leftrightarrow\Lambda(l)-\Lambda(m)=\Lambda(k)$$
 
 $$l\cdot m=k\Leftrightarrow\Lambda(l)\cdot\Lambda(m)=\Lambda(k)$$
 
-Chcąc wyznaczyć łańcuch $k\in\mathbb{L}^{*}$ musimy przejść przez zbiór $\mathbb{Q}$. Nie jest to satysfakcjonująca
+Chcąc wyznaczyć łańcuch $k\in\mathbb{L}^{\ast}$ musimy przejść przez zbiór $\mathbb{Q}$. Nie jest to satysfakcjonująca
 definicja operacji, lecz dla formalności warto o niej wspomnieć.
 
 ## Mianownik
@@ -332,29 +332,29 @@ Mając sformułowane podstawowe pojęcia możemy spróbować przedefiniować hip
 i Pawlika nie wychodząc poza zbiór $\mathbb{L}$.
 - **Hipoteza Zaremby**
 
-$$\forall_{k\in\mathbb{N}}\exists_{z\in\mathbb{Z}^{*}}:\Delta(z)=k$$
+$$\forall_{k\in\mathbb{N}}\exists_{z\in\mathbb{Z}^{\ast}}:\Delta(z)=k$$
 
 - **Hipoteza Pawlika**
 
-$$\forall_{k\in\mathcal{N}}\exists_{p\in\mathcal{P}^{*}}:\Delta(p)=k,\qquad \exists_{n_{0}\in\mathbb{N}} : \mathcal{N}=\set{n\in\mathbb{N} : n\geq n_{0}}$$
+$$\forall_{k\in\mathcal{N}}\exists_{p\in\mathcal{P}^{\ast}}:\Delta(p)=k,\qquad \exists_{n_{0}\in\mathbb{N}} : \mathcal{N}=\set{n\in\mathbb{N} : n\geq n_{0}}$$
 
 Niech $\mathcal{D}_{n}^{k}$ oznacza zbiór wszystkich wartości, generowanych przez funkcję $\Delta$ dla łańcuchów
-właściwych o długości $n$, z przestrzeni $\mathcal{Z}_{k}^{*}$. Formalnie zbiory te definiujemy następująco:
+właściwych o długości $n$, z przestrzeni $\mathcal{Z}_{k}^{\ast}$. Formalnie zbiory te definiujemy następująco:
 
-$$\mathcal{D}_{n}^{k}=\{\Delta(l):\lambda(l)=n\wedge l\in\mathcal{Z}_{k}^{*}\}$$
+$$\mathcal{D}_{n}^{k}=\{\Delta(l):\lambda(l)=n\wedge l\in\mathcal{Z}_{k}^{\ast}\}$$
 
 Chcąc udowodnić hipotezę Zaremby musimy wykazać, że:
 
 $$\bigcup_{n=0}^{\infty}\mathcal{D}_{n}^{5}=\mathbb{N}$$
 
-innymi słowy, trzeba wykazać, że funkcja  $\Delta: \mathcal{Z}^{*}\rightarrow\mathbb{N}$ jest suriekcją.
+innymi słowy, trzeba wykazać, że funkcja  $\Delta: \mathcal{Z}^{\ast}\rightarrow\mathbb{N}$ jest suriekcją.
 
 Analogicznie dla hipotezy Pawlika:
 
 $$\bigcup_{n=0}^{\infty}\mathcal{D}_{n}^{2}=\mathcal{N},\qquad\mathcal{N}=\{n\in\mathbb{N}:n\ge n_{0}\}$$
 
-więc $\Delta:\mathcal{P}^{*}\rightarrow\mathcal{N}$ musi być suriekcją.
+więc $\Delta:\mathcal{P}^{\ast}\rightarrow\mathcal{N}$ musi być suriekcją.
 
 Liczba $n_{0}$ jest pewną stałą liczbą naturalną, powyżej której każdy nieskracalny ułamek wymierny
-daje się zapisać za pomocą łańcuchów $p\in\mathcal{P}^{*}$. Zgodnie z badaniami dr Pawlika, liczba ta (o ile
+daje się zapisać za pomocą łańcuchów $p\in\mathcal{P}^{\ast}$. Zgodnie z badaniami dr Pawlika, liczba ta (o ile
 istnieje) musiałaby spełniać własność $n_{0}>10^{7}$.
