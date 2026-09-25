@@ -184,74 +184,74 @@ mianowniki ułamka wymiernego, gdzie $\Lambda(m)=\frac{m}{1}$.
 > [!example] Dowód
 > Spróbujmy udowodnić indukcyjnie, że $\Delta$ jest zdefiniowana poprawnie. Na potrzeby dowodu niech $N(l)$ oznacza licznik, a $D(l)$ mianownik ułamka wymiernego $\Lambda(l)\in\mathbb{Q}$, zachodzi więc:
 >
-
- $$\Lambda(l)=\frac{N(l)}{D(l)}$$
-
-> 
+>
+ > $$\Lambda(l)=\frac{N(l)}{D(l)}$$
+>
+>> 
 > **1. Baza indukcji**
 > **I. Dla $\lambda(l)=0$**
 >
-
- $$\Lambda([l_{0};])=l_{0}=\frac{l_{0}}{1}\Rightarrow D(l)=1=\Delta(l)$$
-
+>
+ > $$\Lambda([l_{0};])=l_{0}=\frac{l_{0}}{1}\Rightarrow D(l)=1=\Delta(l)$$
+>
 > 
 > **II. Dla $\lambda(l)=1$**
 >
-
- $$\Lambda([l_{0};l_{1}])=l_{0}+\frac{1}{l_{1}}=\frac{l_{0}\cdot l_{1}+1}{l_{1}}\Rightarrow D(l)=l_{1}=\Delta(l)$$
-
+>
+ > $$\Lambda([l_{0};l_{1}])=l_{0}+\frac{1}{l_{1}}=\frac{l_{0}\cdot l_{1}+1}{l_{1}}\Rightarrow D(l)=l_{1}=\Delta(l)$$
+>
 > 
 > **2. $Z_{i}$**
 >
-
- $$D(L_{1}(l))=\Delta(L_{1}(l)),\quad D(L_{2}(l))=\Delta(L_{2}(l))$$
-
+>
+> $$D(L_{1}(l))=\Delta(L_{1}(l)),\quad D(L_{2}(l))=\Delta(L_{2}(l))$$
+>
 > 
 > **3. $T_{i}$**
 >
-
- $$D(l)=\Delta(l)$$
-
+>
+ > $$D(l)=\Delta(l)$$
+>
 > 
 > **4. Dowód indukcyjny dla $\lambda(l)\ge 2$**
 >
-
- $$\Lambda(l)=l_{0}+\frac{1}{\Lambda(L_{1}(l))}=l_{0}+\frac{1}{\frac{N(L_{1}(l))}{D(L_{1}(l))}}=l_{0}+\frac{D(L_{1}(l))}{N(L_{1}(l))}=\frac{l_{0}N(L_{1}(l))+D(L_{1}(l))}{N(L_{1}(l))}\Rightarrow$$
-
 >
-
- $$\Rightarrow D(l)=N(L_{1}(l))\quad(1)$$
-
+ > $$\Lambda(l)=l_{0}+\frac{1}{\Lambda(L_{1}(l))}=l_{0}+\frac{1}{\frac{N(L_{1}(l))}{D(L_{1}(l))}}=l_{0}+\frac{D(L_{1}(l))}{N(L_{1}(l))}=\frac{l_{0}N(L_{1}(l))+D(L_{1}(l))}{N(L_{1}(l))}\Rightarrow$$
+>
+>
+>
+ > $$\Rightarrow D(l)=N(L_{1}(l))\quad(1)$$
+>
 > 
 >
-
- $$\Lambda(L_{1}(l))=l_{1}+\frac{1}{\Lambda(L_{2}(l))}=l_{1}+\frac{1}{\frac{N(L_{2}(l))}{D(L_{2}(l))}}=l_{1}+\frac{D(L_{2}(l))}{N(L_{2}(l))}=\frac{l_{1}N(L_{2}(l))+D(L_{2}(l))}{N(L_{2}(l))}\Rightarrow$$
-
+> 
+ > $$\Lambda(L_{1}(l))=l_{1}+\frac{1}{\Lambda(L_{2}(l))}=l_{1}+\frac{1}{\frac{N(L_{2}(l))}{D(L_{2}(l))}}=l_{1}+\frac{D(L_{2}(l))}{N(L_{2}(l))}=\frac{l_{1}N(L_{2}(l))+D(L_{2}(l))}{N(L_{2}(l))}\Rightarrow$$
 >
-
- $$\Rightarrow D(L_{1}(l))=N(L_{2}(l))\quad(2)$$
-
+>
+>
+ >$$\Rightarrow D(L_{1}(l))=N(L_{2}(l))\quad(2)$$
+>
 > 
 > Z powyższego przypadku rozpiszmy także wzór na licznik $N(L_{1}(l))$:
 >
-
- $$N(L_{1}(l))=l_{1}N(L_{2}(l))+D(L_{2}(l))\stackrel{(1)(2)}{\implies}D(l)=l_{1}\cdot D(L_{1}(l))+D(L_{2}(l))\stackrel{Z_{i}}{\implies}$$
-
 >
-
- $$\implies D(l)=l_{1}\cdot\Delta(L_{1}(l))+\Delta(L_{2}(l))\implies D(l)=\Delta(l)\qquad\blacksquare$$
+ > $$N(L_{1}(l))=l_{1}N(L_{2}(l))+D(L_{2}(l))\stackrel{(1)(2)}{\implies}D(l)=l_{1}\cdot D(L_{1}(l))+D(L_{2}(l))\stackrel{Z_{i}}{\implies}$$
+>
+>
+>
+ > $$\implies D(l)=l_{1}\cdot\Delta(L_{1}(l))+\Delta(L_{2}(l))\implies D(l)=\Delta(l)\qquad\blacksquare$$
 
 Nic nie stoi na przeszkodzie, by mianowniki zdefiniować również na łańcuchach niewłaściwych.
 
 > [!example] Przykład
 > Niech $n=[1;5,0,3]$, liczba ta nie istnieje w zbiorze liczb $\mathbb{Q}$. Korzystając ze wzoru na mianownik $\Delta$ możemy obliczyć:
 >
-
- $$\Delta([1;5,0,3])=5\cdot\Delta([5;0,3])+\Delta([0;3])=5\cdot(0\cdot\Delta(0;3)+\Delta(3;))+\Delta([0;3])=$$
-
 >
-
- $$=5\cdot(0+1)+3=8$$
+ > $$\Delta([1;5,0,3])=5\cdot\Delta([5;0,3])+\Delta([0;3])=5\cdot(0\cdot\Delta(0;3)+\Delta(3;))+\Delta([0;3])=$$
+>
+>
+>
+ > $$=5\cdot(0+1)+3=8$$
 
 Własności mianownika $\Delta$ dla dowolnych $x\in\mathbb{Z}$, $a,b,c,d\in\mathbb{N}$:
 > $\Delta(0)=1$
@@ -273,7 +273,7 @@ zachodzą następujące własności:
 
 **Inwolutywność odwrócenia**
 
-$$\rho(\rho(I))=I$$
+$$\rho(\rho(l))=l$$
 
 **Element neutralny złączenia**
 
@@ -316,16 +316,15 @@ $$\rho(l\bowtie m)=\rho(m)\bowtie\rho(l)$$
 >[!danger] Twierdzenie o mianownik odwrócenia
 >Dla dowolnego łańcucha $l\in \mathbb{L}$ zachodzi:
 >
-
-$$\Delta(l)=\Delta(\rho(l))$$
-
+>
+> $$\Delta(l)=\Delta(\rho(l))$$
+> 
 >*[[Mianownik odwrócenia|Dowód]]*
 
 > [!danger] Twierdzenie o mianowniku złączenia całkowitego
 > Dla dwóch dowolnych niepustych łańcuchów $l,m\in \mathbb{L}$ zachodzi:
 >
-
- $$\Delta(I\bowtie m)=\Delta(I)\cdot\Delta(m)+\Delta(R_{1}(l))\cdot\Delta(L_{1}(m))$$
+ >$$\Delta(I\bowtie m)=\Delta(I)\cdot\Delta(m)+\Delta(R_{1}(l))\cdot\Delta(L_{1}(m))$$
 
 ## Redefinicja hipotez
 Mając sformułowane podstawowe pojęcia możemy spróbować przedefiniować hipotezy Zaremby
