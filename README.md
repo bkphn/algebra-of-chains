@@ -7,4 +7,4 @@ This repository contains the formalization of my original mathematical framework
 * *A full Markdown translation with LaTeX equations is currently in progress.*
 
 ## Core Concepts
-The framework allows for structural manipulation of continued fractions (including improper chains containing zeros) without falling back to matrix-based arithmetic (like Gosper's algorithm) or rational evaluation $\mathbb{Q}$.
+The framework allows for structural manipulation of continued fractions without falling back to matrix-based arithmetic (like Gosper's algorithm) or rational evaluation $\mathbb{Q}$.
